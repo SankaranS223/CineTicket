@@ -1,0 +1,76 @@
+/* ===== PAGE WRAPPER ===== */
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f7fb;
+}
+
+/* ===== CARD ===== */
+.auth-card {
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  padding: 35px 30px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+/* ===== TITLE ===== */
+.auth-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #0f3cc9;
+  margin-bottom: 25px;
+}
+
+/* ===== INPUTS ===== */
+.auth-card input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+.auth-card input:focus {
+  outline: none;
+  border-color: #0f3cc9;
+}
+
+/* ===== BUTTON ===== */
+.auth-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 8px;
+  background: #0f3cc9;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.auth-btn:hover {
+  background: #0b2fa3;
+}
+
+/* ===== SWITCH TEXT ===== */
+.auth-switch {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 14px;
+  color: #374151;
+}
+
+.auth-switch span {
+  color: #0f3cc9;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.auth-switch span:hover {
+  text-decoration: underline;
+}

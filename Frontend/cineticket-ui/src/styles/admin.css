@@ -1,0 +1,149 @@
+/* ===============================
+   ADMIN MOVIE MANAGEMENT – CSS
+   =============================== */
+
+/* ===== PAGE ===== */
+.admin-page {
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px 20px;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f5f7fb;
+}
+
+/* ===== HEADER ===== */
+.admin-header {
+  font-size: 26px;
+  font-weight: 600;
+  color: #0f3cc9;
+  margin-bottom: 25px;
+}
+
+/* ===== TOOLBAR (ADD MOVIE) ===== */
+.admin-toolbar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.admin-toolbar input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+.admin-toolbar input:focus {
+  outline: none;
+  border-color: #0f3cc9;
+}
+
+.admin-toolbar button {
+  background: #0f3cc9;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.admin-toolbar button:hover {
+  background: #0b2fa3;
+}
+
+/* ===== TABLE ===== */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* TABLE HEADER */
+.admin-table thead {
+  background: #f4f6fb;
+}
+
+.admin-table th {
+  text-align: left;
+  padding: 14px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+}
+
+/* TABLE ROWS */
+.admin-table td {
+  padding: 14px 16px;
+  border-top: 1px solid #e5e7eb;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.admin-table tr:hover {
+  background: #f9fafb;
+}
+
+/* ===== INPUT IN EDIT MODE ===== */
+.admin-table input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+/* ===============================
+   ACTION BUTTONS (CONSISTENT)
+   =============================== */
+
+.admin-action {
+  border: none;
+  padding: 6px 14px;
+  border-radius: 5px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-right: 8px;
+  color: #ffffff;
+}
+
+/* UPDATE */
+.admin-update {
+  background: #0f3cc9;
+}
+
+.admin-update:hover {
+  background: #0b2fa3;
+}
+
+/* DELETE */
+.admin-delete {
+  background: #e11d48;
+
+}
+
+.admin-delete:hover {
+  background: #be123c;
+}
+
+/* SAVE */
+.admin-save {
+  background: #16a34a;
+}
+
+.admin-save:hover {
+  background: #15803d;
+}
+
+/* CANCEL */
+.admin-cancel {
+  background: #6b7280;
+}
+
+.admin-cancel:hover {
+  background: #4b5563;
+}

@@ -1,0 +1,54 @@
+/* ===== GLOBAL RESET ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f5f7fb;
+  color: #1f2937;
+}
+
+/* ===== COMMON CONTAINER ===== */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* ===== COMMON BUTTON ===== */
+button {
+  background: #0f3cc9;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #0b2fa3;
+}
+
+button.danger {
+  background: #e11d48;
+}
+
+button.danger:hover {
+  background: #be123c;
+}
+
+/* ===== COMMON INPUT ===== */
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0f3cc9;
+}

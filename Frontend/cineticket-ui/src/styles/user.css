@@ -1,0 +1,89 @@
+/* ===== PAGE ===== */
+.user-page {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f5f7fb;
+}
+
+/* ===== TOP BAR ===== */
+.user-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.user-title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #0f3cc9;
+}
+
+/* ===== SECTION ===== */
+.user-section {
+  margin-bottom: 40px;
+}
+
+.user-section-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  color: #111827;
+}
+
+/* ===== CARD (COMMON) ===== */
+.user-card {
+  background: #ffffff;
+  padding: 16px 18px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+}
+
+/* ===== MOVIE CARD ===== */
+.movie-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.movie-meta {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* ===== BOOK BUTTON ===== */
+.book-btn {
+  background: #0f3cc9;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.book-btn:hover {
+  background: #0b2fa3;
+}
+
+/* ===== BOOKING CARD ===== */
+.booking-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.booking-status {
+  font-size: 13px;
+  font-weight: 600;
+  color: #16a34a;
+}
